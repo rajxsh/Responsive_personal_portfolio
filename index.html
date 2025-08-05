@@ -1,397 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.jpg">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh M | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Rajesh M</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Rajesh M</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img src="assets/profile.png" alt="Rajesh profile picture" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Rajesh</h1>
-      <p class="section__text__p2">Software Developer</p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/Rajesh_Software_Developer.pdf')">
-          Download CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <a href="https://www.linkedin.com/in/rajeshmadhan/" target="_blank" class="home__social-link">
-          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+
+    <div class="welcome-container">
+        <div class="profile-icon">
+            <!-- A simple, professional SVG icon -->
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 17.5L2 12l5.5-5.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 17.5L22 12l-5.5-5.5" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 4l-4 16" stroke="#333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+
+        <h1>Rajesh M</h1>
+        <p class="subtitle">Software Developer</p>
+
+        <p class="message">
+            Welcome! My latest portfolio, showcasing my skills in modern web development, is now live.
+        </p>
+
+        <a href="https://rajxsh.github.io/Portfolio/" class="cta-button">
+            View My New Portfolio
         </a>
 
-
-        <a href="https://github.com/rajxsh" target="_blank" class="home__social-link">
-          <img src="./assets/github.png" alt="My Github profile" class="icon" />
-        </a>
-
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/about.png" alt="Profile picture" class="about-pic" />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3>Experience</h3>
-            <p>2 Months of <br />Software Development</p>
-          </div>
-          <div class="details-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
-            <h3>Education</h3>
-            <p><b>B.Tech. IT </b>| Bachelors Degree<br /></p>
-          </div>
+        <div class="social-links">
+            <a href="https://github.com/rajxsh" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rajeshmadhan/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
         </div>
-        <div align="justify" class="text-container">
-          <b>Spring Boot Developer</b> passionate about creating innovative and robust web applications for the
-          <b>healthcare domain.</b>
-          With a focus on <b>user-centric design</b> and <b> efficient development</b>, I am committed to delivering
-          <b>high-quality solutions.</b>
-          My experience includes developing applications such as <b>Hospital Management Systems (HMS)</b>, and
-          I am driven to build the next generation of <b>real-time healthcare technologies</b> that enhance patient
-          care.
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section>
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-
-    <div class="details-container">
-      <h2 class="experience-sub-title">Skills</h2>
-      <div class="article-container">
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Java Programming</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Spring Boot Core</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>MicroServices Architechture</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Database Handling</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>RESTful API Development</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Messaging Systems</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Cloud & DevOps</h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-        <article>
-          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Unit & Integration Testing </h3>
-            <p>Experienced</p>
-          </div>
-        </article>
-      </div>
     </div>
 
+    <footer>
+        <p>Copyright &copy; 2024 Rajesh M. All Rights Reserved.</p>
+    </footer>
 
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Tools</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>IDE</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Build Tools</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Version Control</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>API Testing</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Database Management</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Containerization & DevOps</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Logging & Monitoring</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Security & Authentication</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        
-
-        <div class="details-container">
-          <h2 class="experience-sub-title">Libraries</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Spring Boot Framework</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Spring Data</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Spring Security</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Spring Cloud</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Logging</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>JSON Processing</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Validation</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>API Documentation </h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Testing</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/coht.jpg" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">COLLISION OBSERVATION AND HANDLING
-            TECHNOLOGY (COHT)</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/rajxsh/Collision_observation_and_handling_technology'">
-              Github
-            </button>
-            <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button> -->
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/Robots.jpeg" alt="Project 2" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">HUMAN EMOTION DETECTION</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/rajxsh/Humanemotiondetection'">
-              Github
-            </button>
-
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/Ebook.jpg" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">ONLINE BOOK STORE</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/rajxsh/OnlineBookStore'">
-              Github
-            </button>
-            <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-  </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-        <p><a href="mailto:rajeshmadhan29@gmail.com">Enter your mail...</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-        <p><a href="https://www.linkedin.com/in/rajeshmadhan/" target="_blank">LinkedIn</a></p>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <p>Copyright &#169; 2024 Rajesh. All Rights Reserved.</p>
-  </footer>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
